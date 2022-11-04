@@ -41,7 +41,7 @@ const TodoApp = () => {
 
     return (
         <div style={{ marginTop: 50 }}>
-            <h2>Todo Application</h2>
+            <h2>Todo App</h2>
             <div style={{ marginTop: 100, marginLeft: 200, marginRight: 200 }}>
                 <input value={currentTodo} onChange={handleOnChangeInput} className="form-control" type="text" /><br />
                 <button onClick={handleSubmit} className="btn btn-outline-primary">Submit</button>
